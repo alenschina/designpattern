@@ -1,12 +1,12 @@
 package org.alens.study.designpattern.builder;
 
-public abstract class Builder {
+public interface Builder {
 
-    public abstract void makeTitle(String title);
+    public void makeTitle(String title);
 
-    public abstract void makeString(String str);
+    public void makeString(String str);
 
-    public abstract void makeItems(String[] items);
+    public void makeItems(String[] items);
 
-    public abstract void close();
+    public void close();
 }
