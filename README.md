@@ -8,6 +8,7 @@ Design pattern study demo code
 **项目结构** 
 ```
 designpattern
+├─builder               建造者模式
 ├─factorymethod         工厂方法模式
 ├─prototype             原型模式
 ├─singleton             单例模式
