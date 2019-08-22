@@ -1,4 +1,4 @@
-package org.alens.study.designpattern.decorate;
+package org.alens.study.designpattern.decorator;
 
 public abstract class Border extends Display {
     protected Display display;

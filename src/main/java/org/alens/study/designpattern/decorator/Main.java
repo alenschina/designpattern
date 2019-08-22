@@ -1,4 +1,4 @@
-package org.alens.study.designpattern.decorate;
+package org.alens.study.designpattern.decorator;
 
 public class Main {
     public static void main(String[] args) {

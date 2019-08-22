@@ -1,6 +1,4 @@
-package org.alens.study.designpattern.decorate;
-
-import sun.security.jca.ServiceId;
+package org.alens.study.designpattern.decorator;
 
 public class SideBorder extends Border {
     private char borderChar;
