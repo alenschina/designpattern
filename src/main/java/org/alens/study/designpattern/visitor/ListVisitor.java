@@ -3,7 +3,7 @@ package org.alens.study.designpattern.visitor;
 import java.util.Iterator;
 
 public class ListVisitor extends Visitor {
-    private String currentDir;
+    private String currentDir = "";
 
     @Override
     public void visit(File file) {
