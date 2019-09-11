@@ -16,7 +16,7 @@ public class HtmlWriter {
         writer.write("<title>" + title + "</title>");
         writer.write("</head>");
         writer.write("<body>\n");
-        writer.write("h1" + title + "</h1>\n");
+        writer.write("<h1>" + title + "</h1>\n");
     }
 
     public void paragraph(String msg) throws IOException {
